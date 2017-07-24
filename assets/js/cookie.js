@@ -22,6 +22,17 @@ function afficherReset() {
 	document.getElementById("score").innerHTML =score;
 }
 
+/* Essai d'ajout d'une fonction pour augmenter le multiplicateur  
+
+function superMultiplicateur(){
+	if (score>=50) {
+		nbMultiplicateur + score;
+	} else {
+		alert ("Il faut 50 cookies pour utiliser le superMultiplicateur!");
+	}
+	document.getElementById("score").innerHTML = score;
+	multiplicateur.onclick = superMultiplicateur;
+} */
 
 cookie.onclick = clic;
 multiplicateur.onclick = afficherNbMultiplicateur;

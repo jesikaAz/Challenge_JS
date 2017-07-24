@@ -1,0 +1,69 @@
+/*
+Auteur: Jessica Anschutz
+Description : Réalisation d'un Cookie clicker en Javascript
+*/
+
+body {
+	background-color:#FFA500;
+  	margin: 0;
+  	padding: 0;
+}
+
+
+h1 {
+	color:#675509;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Comic Sans MS";
+	font-size:60px;
+}
+
+
+h2 {
+	color:#675509;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size:30px;
+}
+
+.clic {
+	display:block;
+}
+
+#reset {
+	background-color: #A0522D;
+	color: #fff;
+	margin-bottom: 40px;
+	margin-left: 300px;
+	font-family: "Comic Sans MS";
+	font-size: 22px;
+
+}
+
+#cookie {
+	border:none;
+	width:500px;
+	height:250px;
+	cursor:pointer;
+	margin-left: 400px;
+	padding-top: 50px;
+}
+
+#multiplicateur {
+	background-color: #675509;
+	color: #fff;
+	font-family: "Comic Sans MS";
+	font-size: 22px;
+	margin-left: 900px;
+
+}
+
+#score {
+	margin-left: 300px;
+	background-color: #ffd00a;
+	font-family: "Comic Sans MS";
+	font-size: 22px;
+
+}
+
+
